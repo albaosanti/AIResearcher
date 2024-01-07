@@ -196,6 +196,6 @@ group_chat_manager = autogen.GroupChatManager(groupchat=groupchat, llm_config={"
 
 # ------------------ start conversation ------------------ #
 message = "Research the funding stage/amount & pricing for each company in the list: https://airtable.com/appmYO0tyET6jQmpr/tbl9ZCoIyaFR32KRt/viwH6m7jZVisPyri2?blocks=hide"
-user_proxy.initiate_chat(group_chat_manager, message=message)
+#user_proxy.initiate_chat(group_chat_manager, message=message)
 
-#user_proxy.initiate_chat(researcher, message="what's the pricing of relevanceAI")
+user_proxy.initiate_chat(researcher, message="Who are the riches man in the world based on forbes?")
